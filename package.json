@@ -1,0 +1,31 @@
+{
+  "name": "json-server-api",
+  "version": "1.0.0",
+  "description": "Set up custom api for deploying to heroku",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "SangHoang",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "json-server": "^0.16.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
